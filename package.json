@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/henrydaggett/playground/issues"
   },
-  "homepage": "https://github.com/henrydaggett/playground#readme"
+  "homepage": "https://github.com/henrydaggett/playground#readme",
+  "keywords": []
 }
