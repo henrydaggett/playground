@@ -1,0 +1,1 @@
+var helloWorld =   'hello world'
