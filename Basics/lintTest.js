@@ -1,7 +1,3 @@
-var     helloWorld =   'hello world'
+const helloWorld = 'hello world';
 
-
-
-
-var ok = ' Im ok ';
-
+const ok = ' Im ok ';
