@@ -1,3 +1,8 @@
-const helloWorld = 'hello world';
+let helloWorld = 'hello world';
 
-const ok = ' Im ok ';
+let ok = ' Im ok ';
+
+helloWorld = 2;
+ok = 3;
+
+return helloWorld + ok;
