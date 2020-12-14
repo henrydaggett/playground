@@ -9,7 +9,7 @@ const bill = 100;
 const taxRate = 0.13;
 
 function taxMe() {
-  console.log('This is calculating!');
+  console.log('This is calculating some magic!');
   const total = bill * (1 + taxRate);
   return total;
 }
