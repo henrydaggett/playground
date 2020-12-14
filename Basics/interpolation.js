@@ -22,4 +22,9 @@ function sayHiTo(firstName) {
   return `Hello ${firstName.toUpperCase()}`;
 }
 
+function sayHiLoudly(firstName) {
+  return `${firstName.toUpperCase()}`;
+}
+
 const greeting = sayHiTo('World');
+const loudGreeting = sayHiLoudly(sayHiTo('World'));
