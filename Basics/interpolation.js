@@ -5,13 +5,21 @@ function calculateBill(amount, people) {
 
 console.log(`Your total is £${calculateBill(100, 3)}`);
 
-const bill = 100;
-const taxRate = 0.13;
-
-function taxMe() {
+function taxMe(bill, taxRate) {
   console.log('This is calculating some magic!');
   const total = bill * (1 + taxRate);
   return total;
 }
 
-console.log(`Your total is £${taxMe()}`);
+let HDbill = 100;
+const HDtaxRate = 0.12;
+
+console.log(`Your total is £${taxMe(HDbill, HDtaxRate)}`);
+
+HDbill = 120;
+
+function sayHiTo(firstName) {
+  return `Hello ${firstName.toUpperCase()}`;
+}
+
+const greeting = sayHiTo('World');
