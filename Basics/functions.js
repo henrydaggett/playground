@@ -39,7 +39,7 @@ function add(a, b = 3) {
 
 // with arrow functions the name is inferred from the name of the variable, so in the below example you will call total(a,b) to get the function
 
-const total = (a, b = 3) => a + b;
+const total1 = (a, b = 3) => a + b;
 
 // function makeABaby(first, last) {
 //   const baby = {
