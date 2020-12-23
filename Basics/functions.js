@@ -10,8 +10,10 @@ function doctorise(firstName) {
 // }
 
 // function expression
-const doctorise2 = function (firstName) {
-  return `Dr. ${firstName}`;
+const name = 'Henry';
+
+const doctorise2 = function (name) {
+  return `Dr. ${name}`;
 };
 
 // arrow function
