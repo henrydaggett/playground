@@ -10,10 +10,8 @@ function doctorise(firstName) {
 // }
 
 // function expression
-const name = 'Henry';
-
-const doctorise2 = function (name) {
-  return `Dr. ${name}`;
+const doctorise2 = function (firstName) {
+  return `Dr. ${firstName}`;
 };
 
 // arrow function
@@ -51,7 +49,7 @@ const total1 = (a, b = 3) => a + b;
 //   return baby;
 // }
 
-const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
+const makeBaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
 
 // IIFE = Immidiately invoked Fuction Expression
 
